@@ -1,0 +1,12 @@
+let n = 11;
+let nn;
+if (n % 2 === 0) {
+    nn = n;
+} else {
+        nn = n+1;
+    }
+
+for (let i = nn; i <= 20; i++) {
+    console.log(i);
+
+}
